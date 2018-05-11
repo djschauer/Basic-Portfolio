@@ -1,0 +1,6 @@
+#mypic {
+    transform: rotate(90deg);
+    height: 112.5px;
+    width: 150px;
+    float: left;
+}
