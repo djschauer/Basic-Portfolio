@@ -1,6 +1,14 @@
+body {
+    background-image: url("../images/light-grey-terrazzo.png")
+}
+
 #mypic {
     transform: rotate(90deg);
     height: 112.5px;
     width: 150px;
     float: left;
+}
+
+section {
+    background: #ffffff;
 }
