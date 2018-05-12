@@ -9,31 +9,31 @@
 </head>
 <body>
     <header>
-        <div id=logo>
-                Daniel Schauer
-        </div>
-        <section>
-            <p>
+        <nav>
+                <div id=logo>
+                        Daniel Schauer
+                </div>
+            <p class=about>
                 <a href="index.html">About</a>
             </p>
-            <p>
+            <p class=contact>
                 <a href="contact.html">Contact</a>
             </p>
-            <p>
+            <p class=portfolio>
                 <a href="portfolio.html">Portfolio</a>
             </p>
-        </section>
+        </nav>
     </header>
     <section>
         <div>
-            Contact
+            <h1 id=contact>Contact</h1>
         </div>
         <div>
             <form action="/action_page.php">
-                Name: <input type="text" name="name"><br>
-                Email: <input type="text" name="email"><br>
-                Message: <input type="text" name="message"><br>
-                <input type="submit" value="Submit">
+                Name: <input type="text" name="name" class=contentfield><br>
+                Email: <input type="text" name="email" class=contentfield><br>
+                Message: <input type="text" name="message" class=contentfield id=message><br>
+                <input type="submit" value="Submit" id=submit>
             </form>
         </div>
     </section>
