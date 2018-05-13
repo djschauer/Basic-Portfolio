@@ -79,14 +79,20 @@ section {
 
 #aboutme {
     color: #4aaaa5;
+    border-bottom: 2px solid #4aaaa5;
+    padding: 10px;
 }
 
 #projects {
     color: #4aaaa5;
+    border-bottom: 2px solid #4aaaa5;
+    padding: 10px;
 }
 
 #contact {
     color: #4aaaa5;
+    border-bottom: 2px solid #4aaaa5;
+    padding: 10px;
 }
 
 .contentfield {
